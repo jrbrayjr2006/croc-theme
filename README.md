@@ -149,6 +149,31 @@ For CSS and JavaScript, we recommend using the [`{% stylesheet %}`](https://shop
 
 The Skeleton Theme explicitly separates essential CSS necessary for every page into a dedicated `critical.css` file.
 
+## Running Shopify in Development Mode
+
+```sh
+shopify theme dev --store jaydot2-stylish-stitches
+```
+
+## Modifications
+
+```sh
+npm init -y
+npm install tailwindcss @tailwindcss/cli
+```
+
+```sh
+npx @tailwindcss/cli -i ./src/input.css -o ./assets/application.css
+
+npx @tailwindcss/cli -i ./src/input.css -o ./assets/application.css --watch
+```
+
+## References
+
+- [Hero Icons](https://heroicons.com/)
+- [Schemas](https://schema.org/)
+- [Rich Results Test](https://search.google.com/test/rich-results)
+
 ## Contributing
 
 We're excited for your contributions to the Skeleton Theme! This repository aims to remain as lean, lightweight, and fundamental as possible, and we kindly ask your contributions to align with this intention.
