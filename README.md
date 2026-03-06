@@ -2,7 +2,7 @@
   <br>
     <img src="./assets/shoppy-x-ray.svg" alt="logo" width="200">
   <br>
-  Shopify Skeleton Theme
+  Jaydot2 Croc Theme from Shopify Skeleton Theme
 </h1>
 
 A minimal, carefully structured Shopify theme designed to help you quickly get started. Designed with modularity, maintainability, and Shopify's best practices in mind.
@@ -152,7 +152,13 @@ The Skeleton Theme explicitly separates essential CSS necessary for every page i
 ## Running Shopify in Development Mode
 
 ```sh
-shopify theme dev --store jaydot2-stylish-stitches
+shopify theme dev --store jaydot2-learning-store
+```
+
+### Make Shopify Theme Available to Store for Development
+
+```sh
+shopify theme push --unpublished
 ```
 
 ## Modifications
